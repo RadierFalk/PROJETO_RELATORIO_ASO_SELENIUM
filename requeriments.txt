@@ -1,0 +1,9 @@
+pyautogui == 0.9.54
+pyinstaller == 2024.9
+selenium == 4.26.1
+
+#instalar dependencias
+pip install .
+
+#converter para .exe
+pyinstaller --onefile automain.py
